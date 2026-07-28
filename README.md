@@ -82,6 +82,8 @@
 |------|------|------|
 | Windows x64 | `EssSimulator-Community-win-x64.zip`（约 41 MB） | [点击下载](./releases/EssSimulator-Community-win-x64.zip) |
 | macOS Apple Silicon（arm64） | `EssSimulator-Community-osx-arm64.tar.gz`（约 39 MB） | [点击下载](./releases/EssSimulator-Community-osx-arm64.tar.gz) |
+
+> **macOS 提示「无法验证…恶意软件」**：社区版未做 Apple 公证，属正常拦截。解压后在目录内执行 `./解除隔离.sh` 再 `./start.sh`；或：系统设置 → 隐私与安全性 →「仍要打开」。详见包内 `README-macOS.txt`。
 | Linux x64 | `EssSimulator-Community-linux-x64.tar.gz`（约 40 MB） | [点击下载](./releases/EssSimulator-Community-linux-x64.tar.gz) |
 | Linux ARM64 | `EssSimulator-Community-linux-arm64.tar.gz`（约 39 MB） | [点击下载](./releases/EssSimulator-Community-linux-arm64.tar.gz) |
 
