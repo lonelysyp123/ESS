@@ -70,7 +70,7 @@
 - **地区历史实况复现**：按某地区历史辐照/发电曲线驱动光伏出力，贴近真实工况做策略验证  
 - 其它特殊一次设备、保护逻辑、点表或协议扩展（以双方确认的交付清单为准）
 
-**交付说明：** 提供 Windows / Linux **自包含安装运行包**与使用说明；默认**不提供源代码**。现场支持、长期维护等可另议。
+**交付说明：** 提供 Windows / macOS / Linux **自包含安装运行包**与使用说明；默认**不提供源代码**。现场支持、长期维护等可另议。
 
 ---
 
@@ -81,6 +81,7 @@
 | 平台 | 文件 | 下载 |
 |------|------|------|
 | Windows x64 | `EssSimulator-Community-win-x64.zip`（约 41 MB） | [点击下载](./releases/EssSimulator-Community-win-x64.zip) |
+| macOS Apple Silicon（arm64） | `EssSimulator-Community-osx-arm64.tar.gz`（约 39 MB） | [点击下载](./releases/EssSimulator-Community-osx-arm64.tar.gz) |
 | Linux x64 | `EssSimulator-Community-linux-x64.tar.gz`（约 40 MB） | [点击下载](./releases/EssSimulator-Community-linux-x64.tar.gz) |
 | Linux ARM64 | `EssSimulator-Community-linux-arm64.tar.gz`（约 39 MB） | [点击下载](./releases/EssSimulator-Community-linux-arm64.tar.gz) |
 
@@ -99,6 +100,7 @@
 | 平台 | 要求 |
 |------|------|
 | Windows | Windows 10/11 或 Server 2019+，64 位；建议内存 ≥ 4 GB |
+| macOS | Apple Silicon（arm64）；macOS 12+ 建议；首次运行可能需在「隐私与安全性」中允许 |
 | Linux | 提供对应架构发布包（以实际交付为准） |
 | 依赖 | 自包含发布，无需单独安装 .NET 运行时 |
 
@@ -117,6 +119,6 @@
 
 1. 社区试用 / 商业买断 / 项目定制  
 2. 目标储能单元数量、是否需要光伏等特殊设备  
-3. 目标平台（Windows / Linux）  
+3. 目标平台（Windows / macOS / Linux）  
 
 欢迎来信或来电咨询商业版、定制版报价；社区版可直接在上方下载。
